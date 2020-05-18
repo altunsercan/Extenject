@@ -1,0 +1,11 @@
+{
+    "name": "com.svermeulen.extenjectsignals",
+    "displayName": "Extenject Signals",
+    "version": "9.1.0",
+    "unity": "2018.1",
+    "description": "Extenject Local Folder",
+    "keywords": ["Dependency Injection"],
+    "category": "Scripting",
+    "dependencies": {
+    }
+}
