@@ -6,6 +6,7 @@ copy package.core.json Packages\Extenject\package.json
 
 xcopy /I ..\UnityProject\Assets\Plugins\Zenject\OptionalExtras\TestFramework  /E Packages\Extenject-TestFramework\Tests /EXCLUDE:ExcludeTestFramework.txt
 copy package.testframework.json Packages\Extenject-TestFramework\package.json
+copy /Y Zenject-TestFramework.asmdef Packages\Extenject-TestFramework\Tests\Zenject-TestFramework.asmdef
 
 xcopy /I ..\UnityProject\Assets\Plugins\Zenject\OptionalExtras\Signals /E Packages\Extenject-Signals\Runtime
 copy package.signals.json Packages\Extenject-Signals\package.json
